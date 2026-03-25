@@ -1,46 +1,33 @@
-# 📦 Inventory Management System (Python)
+# 📦 Inventory Management System (Python + SQLite)
 
-Sistema de gestión de inventario desarrollado en Python como parte de mi proceso de aprendizaje en desarrollo de software.
+Sistema de gestión de inventario desarrollado en Python con base de datos SQLite.
 
 ---
 
 ## 🚀 Funcionalidades
 
 * ➕ Agregar productos
-* 📋 Ver lista de productos
+* 📋 Ver productos
 * ✏️ Editar productos
 * 🗑️ Eliminar productos
-* 💾 Persistencia de datos usando JSON
+* 💾 Persistencia con base de datos SQLite
 * ✅ Validaciones de entrada
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías
 
 * Python
-* JSON
-* Manejo de archivos
-* Lógica de programación
+* SQLite
+* SQL (INSERT, SELECT, UPDATE, DELETE)
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
-
-1. Clona este repositorio:
+## ▶️ Cómo ejecutar
 
 ```bash
 git clone https://github.com/TU-USUARIO/inventory-management-python.git
-```
-
-2. Entra a la carpeta:
-
-```bash
 cd inventory-management-python
-```
-
-3. Ejecuta el programa:
-
-```bash
 python main.py
 ```
 
@@ -48,28 +35,26 @@ python main.py
 
 ## 🧠 Qué aprendí
 
-Durante este proyecto aprendí:
-
-* Manejo de estructuras de datos (listas y diccionarios)
-* Validación de datos ingresados por el usuario
-* Lectura y escritura de archivos JSON
-* Organización de código en funciones
-* Implementación de operaciones CRUD
+* Conexión a bases de datos con SQLite
+* Creación de tablas
+* Uso de consultas SQL (CRUD)
+* Manejo de datos persistentes
+* Validación de datos
 
 ---
 
 ## ⚠️ Nota
 
-Este proyecto fue desarrollado como parte de mi proceso de aprendizaje.
-Algunas partes fueron apoyadas con herramientas de IA, pero me enfoqué en entender, modificar y mejorar cada implementación.
+Este proyecto forma parte de mi proceso de aprendizaje.
+Algunas partes fueron apoyadas con herramientas de IA, pero me enfoqué en entender, adaptar y mejorar cada implementación.
 
 ---
 
 ## 🎯 Próximos pasos
 
-* Migrar a base de datos SQL
-* Crear interfaz gráfica
-* Convertirlo en API
+* Crear API con FastAPI
+* Conectar con bases de datos más robustas (PostgreSQL)
+* Agregar interfaz gráfica
 
 ---
 
